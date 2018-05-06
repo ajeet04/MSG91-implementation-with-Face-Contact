@@ -1,0 +1,5 @@
+<root>
+    <item name='com.twilio.rest.messaging.v1.service.PhoneNumber'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

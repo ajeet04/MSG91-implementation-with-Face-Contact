@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/cancel_bottomseet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="Hi, Your OTP is : 123456"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_backgrounf"
+        android:id="@+id/messages"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_backgrounf"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Send"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/send"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
